@@ -4,7 +4,7 @@ console.log('Conexión Existosa')
 let listaEstudiantes = []
 console.log(listaEstudiantes)
 
-// Función para registrar un estudiante
+// Función para registrar estudiantes
 function registrarEstudiantes() {
     let nombre = prompt("Ingrese el nombre del estudiante")
     let documento = prompt("Ingrese el documento del estudiante")
@@ -47,7 +47,7 @@ function calcularResultadosNotas(nota1, nota2, nota3) {
     }
 }
 
-// Función para mostrar los resultados
+// Función para mostrar los resultados de los estudiantes
 function mostrarResultados() {
     console.log("Resultados de los estudiantes:")
     listaEstudiantes.forEach(function (estudiante) {
